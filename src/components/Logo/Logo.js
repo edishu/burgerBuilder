@@ -5,7 +5,7 @@ import classes from './Logo.css';
 
 const logo = () => (
     <div className={classes.Logo}>
-        <img src={burgerLogo}/>
+        <img src={burgerLogo} alt="Burger Logo"/>
     </div>
 );
 
